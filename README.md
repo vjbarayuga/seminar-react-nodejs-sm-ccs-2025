@@ -30,12 +30,17 @@ mern-app/
 └── server/           → Express backend
 
 cd server //to enter the server directory
+
 npm init -y
+
 npm install express mongoose cors body-parser
 
 cd .. //to go out the server directory
+
 npm create vite@latest client //this will install vite inside the client directory
+
 npm install // this will install the node modules
+
 npm install axios
 
 
