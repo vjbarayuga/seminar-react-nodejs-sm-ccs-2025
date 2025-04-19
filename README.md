@@ -13,27 +13,35 @@ You should see this:
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 
+
 To run:
 cd server
 node index.js
+
 
 You should see this:
 Server running on http://localhost:5000
 MongoDB connected
 
 
+
 But if you prefer to do the project from scratch, then you must undergo the following:
+
 
 Create the following directories:
 mern-app/
 ├── client/           → React frontend
 └── server/           → Express backend
 
+
 cd server //to enter the server directory
 
 npm init -y
 
 npm install express mongoose cors body-parser
+
+
+
 
 cd .. //to go out the server directory
 
